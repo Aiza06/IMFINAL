@@ -1,0 +1,186 @@
+ body{
+    background-image: url('https://wallpapers.com/images/hd/anime-landscape-background-12xkkc2cnstc3gp2.jpg');
+    font-family: 'Calibir';
+    padding: 0px;
+}
+.reg-form{
+    width: 25%;
+    padding: 2em;
+    margin: 1em auto;
+    border-radius: 5px;
+     background-position: center;
+    background-repeat: no-repeat;
+     background-size: auto;
+    box-shadow: 2px 2px 25px 20px #116666;
+}
+input{
+    width: 95%;
+    margin: .8em auto;
+    margin-top: 0em;
+    padding: .5em .2em;
+}
+label{
+    font-size: .8em;
+    color: #fffefe;
+}
+input[type='submit']{
+    width: 97.7%;
+    background-color: red;
+    color: #fffefe;
+    outline: none;
+    border: none;
+    padding: .8em .2em;
+    border-radius: 2px;
+}    
+input[type='submit']:hover{
+    background-color: skyblue;
+    color: #fffefe;
+}
+.nav{
+   background-color: #bbffff;
+   margin: 20px;
+   box-shadow: 2px 2px 5px 2px #ff00ff; 
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   border-radius: 20px;
+   max-height: 50px;
+}
+.nav-right{
+    display: block;
+    width: 20%;
+    margin-left: auto;
+}
+.nav-left{
+    display: inline-block;
+    width: 70%;
+    margin-right: auto;
+    text-align: left;
+}
+.nav-left ul{
+   list-style-type: none;
+   margin: 0px;
+}
+.nav-left li{
+    display: inline-block;
+    padding: 1em;
+}
+.nav-left li:hover{
+    background-color: #abefef;
+}
+.logo{
+    background-image: url('logo');
+    background-size: 35px 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav-right ul{
+    list-style-type: none;
+}
+.nav-right li{
+   display: inline-block;
+   padding:1em;
+}
+a{
+    text-decoration: none;
+    color: #FF3E9B;
+}
+.title{
+    text-align: center;
+    color: red;
+    fontsize: 1em;
+}
+.alert  {
+    text-align: center;
+    color: #ee6666;
+    fontsize: 1em;
+}
+.container{
+    position: relative;
+    margin: 1em auto;
+    min-heigt: 40vh;
+    min-width: 50vh;
+    width: 80%;
+    background-color: #bbffff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.banner{
+    width: 100%;
+    background-image: url('https://webneel.com/wallpaper/sites/default/files/images/03-2013/12-nature-sunset-landscape-wallpaper.preview.jpg');
+    background-size: cover;
+    background-position: center;
+    background-size: 500px 200px;
+    height: 21vh;
+    box-shadow: 2px 2px 5px 2px blue;
+}
+#banner-propic{
+    background-image: url('https://i.pinimg.com/236x/cf/30/8b/cf308b77f0f6bf330240b9f62824acb1.jpg');   
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    top: 13vh;
+    left: 10vh;
+    box-shadow: 2px 2px 5px 2px blue;
+}
+#banner-name{
+    position: absolute;
+    top: 25vh;
+    left: 32vh;
+    font-size: 2em;
+    color: white;
+}
+.post-container{ overflow: hidden;
+    width: 50%;
+    margin: auto;
+    margin-top: 10vh;
+}
+#post-area{
+    width: 100%;
+    resize: none;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 1em 1em;
+}
+#post-btn{
+    margin: 1em auto;
+    width: 100%;
+}
+.post{
+    width: 100%;
+    border: solid .5px;
+    border-color: blue;
+    border-radius: 15px;
+    margin: .2em auto;
+    box-sizing: border-box;
+    padding: .5em;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 2px 2px 5px 2px #ff00ff;
+}
+.post-content{
+    width: 100%;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 15px;
+    margin: .2em auto;
+    box-sizing: border-box;
+    padding: .5em;
+    border-radius: 5px;
+    color: #337777;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.timeline-container{
+    position: relative;
+    margin: 1em auto;
+    min-height: 40vh;
+    min-width:50vh;
+    width: 60%;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px 2px pink;
+    padding: 2em;
+}
